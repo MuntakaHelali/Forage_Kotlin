@@ -33,7 +33,7 @@ private val forageableDao: ForageableDao
 ): ViewModel() {
 
     // TODO: create a property to set to a list of all forageables from the DAO
-    private val getAllForageables: LiveData<List<Forageable>> = forageableDao.getForageables().asLiveData()
+    val allForageables: LiveData<List<Forageable>> = forageableDao.getForageables().asLiveData()
     // TODO : create method that takes id: Long as a parameter and retrieve a Forageable from the
     //  database by id via the DAO.
     fun getForageable(id: Long): LiveData<Forageable> = forageableDao.getForageable(id).asLiveData()
