@@ -12,7 +12,16 @@ input information such as name of the item, location where the item was found, a
 </p>
 <br>
 <br>
-The user can view all the information about the foraged item by selecting that item in the main screen. The user has the option to click on the FAB to edit the information and hit the save button, or delete the item entirely by hitting the delete button. 
+The user can view all the information about the foraged item by selecting that item in the main screen. If the user clicks on the location text, the application will launch the Google Maps app with the location they entered as the search query. 
+<br>
+<br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/57158277/170204908-af0d63b4-bcc1-4557-844a-ba2974e430db.png" width="250">
+  <img src="https://user-images.githubusercontent.com/57158277/170205004-7250f886-a0d6-4366-a2de-1ed8cfaaddb1.png" width="250">
+</p>
+<br>
+<br>
+The user has the option to click on the FAB to edit the information and hit the save button, or delete the item entirely by hitting the delete button. 
 <br>
 <br>
 <p align="center">
